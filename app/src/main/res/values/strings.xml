@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BottomSheet</string>
+    <string name="btn_show_bottom_sheet">Show Bottom Sheet Dialog</string>
+
+    <string name="transition_name" translatable="false">demoTransition</string>
+</resources>

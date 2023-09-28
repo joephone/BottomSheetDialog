@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:transitionName="@string/transition_name">
+
+
+
+    <!-- 第1排  扫一扫 -->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/ll_scan"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/height_standard_layout"-->
+<!--        android:background="@drawable/water_effect_selector"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="@dimen/dp_30"-->
+<!--        android:layout_marginBottom="@dimen/dp_50"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:paddingLeft="16dp"-->
+<!--        android:paddingRight="16dp">-->
+
+<!--        &lt;!&ndash;<ImageView&ndash;&gt;-->
+<!--        &lt;!&ndash;android:layout_width="18dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;android:layout_height="18dp"&ndash;&gt;-->
+<!--        &lt;!&ndash;android:scaleType="fitCenter"&ndash;&gt;-->
+<!--        &lt;!&ndash;android:src="@drawable/ic_setting"&ndash;&gt;-->
+<!--        &lt;!&ndash;app:tint="@color/main" />&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="发现页管理"-->
+<!--            android:textColor="@color/text_33"-->
+<!--            android:textSize="@dimen/text_content" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tv_language"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="5dp"-->
+<!--            android:singleLine="true"-->
+<!--            android:text="不显示"-->
+<!--            android:textColor="@color/text_third"-->
+<!--            android:textSize="@dimen/text_notes"-->
+<!--            tools:text="@string/simplified_chinese" />-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:rotation="180"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:scaleType="fitCenter"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src="@drawable/ic_back"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:tint="@color/third" />&ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+
+<!--    <androidx.appcompat.widget.AppCompatTextView-->
+<!--        android:id="@+id/text"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="@string/hint_click_to_move_next"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/button_show_higher_fragment"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_right"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_left"-->
+<!--        app:layout_constraintTop_toTopOf="@id/guideline_top" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_show_higher_fragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:minWidth="250dp"-->
+<!--        android:text="@string/button_show_big_fragment"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/button_show_smaller_fragment"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_right"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_left"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/text" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_show_smaller_fragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:minWidth="250dp"-->
+<!--        android:text="@string/button_show_small_fragment"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/button_show_full_screen_fragment"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_right"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_left"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_show_higher_fragment" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_show_full_screen_fragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:minWidth="250dp"-->
+<!--        android:text="@string/button_show_fullscreen_fragment"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/button_show_long_load_fragment"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_right"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_left"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_show_smaller_fragment" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatButton-->
+<!--        android:id="@+id/button_show_long_load_fragment"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:minWidth="250dp"-->
+<!--        android:text="@string/button_show_long_loading_fragment"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/image"-->
+<!--        app:layout_constraintEnd_toEndOf="@id/guideline_right"-->
+<!--        app:layout_constraintStart_toStartOf="@id/guideline_left"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_show_full_screen_fragment" />-->
+
+<!--    <androidx.appcompat.widget.AppCompatImageView-->
+<!--        android:id="@+id/image"-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:src="@drawable/dodo"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/guideline_bottom"-->
+<!--        app:layout_constraintDimensionRatio="H, 16:6"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/button_show_long_load_fragment" />-->
+
+</LinearLayout>
