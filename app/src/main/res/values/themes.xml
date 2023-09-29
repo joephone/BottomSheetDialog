@@ -20,6 +20,6 @@
     </style>
 
     <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
-        <item name="android:background">@drawable/background</item>
+        <item name="android:background">@drawable/bg_layout_bottom_sheet</item>
     </style>
 </resources>
