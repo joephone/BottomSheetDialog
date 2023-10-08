@@ -8,3 +8,4 @@
 //}
 rootProject.name = "BottomSheetDialog"
 include ':app'
+include ':lib_core'

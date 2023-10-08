@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/bottom_lib_transport"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/standard_padding"
+              android:paddingBottom="@dimen/standard_padding"
+              android:paddingLeft="@dimen/standard_padding"
+              android:paddingRight="@dimen/standard_padding">
+
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bottom_lib_title_n"
+            android:gravity="center"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:textColor="@color/text_33"
+            android:textSize="@dimen/bottom_lib_dialog_title_text"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/bottom_lib_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_bottom_lib_list_bg"
+        android:divider="@color/line"
+        android:dividerHeight="3px"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/selector_bottom_lib_button"
+        android:layout_marginTop="@dimen/standard_padding"
+        android:text="@string/cancel"
+        android:textColor="@color/text_33"
+        android:textSize="@dimen/bottom_lib_dialog_cancel_text"/>
+
+</LinearLayout>
